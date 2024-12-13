@@ -5,7 +5,7 @@
 [[🌐 Project Page](https://deepstack-vl.github.io/)]
 [[📚  Paper](https://arxiv.org/abs/2406.04334)] 
 [[🤗 Checkpoints](https://huggingface.co/collections/menglc/slimm-675bd737c2965037a6b52d05)] 
-[[🤖 demo]()] 
+[[🤖 demo](https://f3d44298f3ac825a6d.gradio.live/)] 
 
 ## 🌟 Highlights
 
