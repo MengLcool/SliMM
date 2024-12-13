@@ -5,7 +5,7 @@
 [[🌐 Project Page](https://deepstack-vl.github.io/)]
 [[📚  Paper](https://arxiv.org/abs/2406.04334)] 
 [[🤗 Checkpoints](https://huggingface.co/collections/menglc/slimm-675bd737c2965037a6b52d05)] 
-[[🤖 demo](https://f3d44298f3ac825a6d.gradio.live/)] 
+[[🤖 demo](https://a3325fc43907504a7c.gradio.live/)] 
 
 ## 🌟 Highlights
 
@@ -34,6 +34,10 @@ conda create -n slimm python=3.10 -y
 conda activate slimm
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
+
+# It is currently crucial to install the transformers library with commit 7bbc62474391aff64f63fcc064c975752d1fa4de
+# This issue will be resolved in the next version.
+pip install transformers@git+https://github.com/huggingface/transformers.git@7bbc62474391aff64f63fcc064c975752d1fa4de
 
 # additional packages for training cases
 pip install -e ".[train]"

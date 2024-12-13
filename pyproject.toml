@@ -42,7 +42,7 @@ train = [
     "peft",
     "accelerate==0.29.1",
     "tokenizers~=0.15.2",
-    "transformers==4.47.0",
+    "transformers@git+https://github.com/huggingface/transformers.git@7bbc62474391aff64f63fcc064c975752d1fa4de",
     "bitsandbytes==0.41.0",
     "scikit-learn==1.2.2",
     "sentencepiece~=0.1.99",

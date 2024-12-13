@@ -442,7 +442,7 @@ class SliMMForConditionalGeneration(Qwen2VLForConditionalGeneration):
             return position_ids, mrope_position_deltas
 
 
-    def prepare_inputs_for_generation_bak(
+    def prepare_inputs_for_generation(
         self,
         input_ids,
         past_key_values=None,
