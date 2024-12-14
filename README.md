@@ -17,7 +17,7 @@
   [1] *DeepStack: Deeply Stacking Visual Tokens is Surprisingly Simple and Effective for LMMs*
 
 ## 🔥 News
-* [2024/12/12] Our [first version](https://huggingface.co/collections/menglc/slimm-675bd737c2965037a6b52d05) is out! We release a strong 0.5B baseline model [SliMM-Qwen2-0.5B](https://huggingface.co/menglc/SliMM-Qwen2-0.5B) and advanced baseline [SliMM-DeepStackM-Qwen2-0.5B](https://huggingface.co/menglc/SliMM-DeepStackM-Qwen2-0.5B). We release a strong 2B model [SliMM-DeepStackE-Qwen2VL-2B](https://huggingface.co/menglc/SliMM-DeepStackE-Qwen2VL-2B) continous fine-tuned from Qwen2VL-2B, which save 4x fewer visual tokens for LLM with. Training scrips are avaliable [here]()!
+* [2024/12/12] Our [first version](https://huggingface.co/collections/menglc/slimm-675bd737c2965037a6b52d05) is out! We release a strong 0.5B baseline model [SliMM-Qwen2-0.5B](https://huggingface.co/menglc/SliMM-Qwen2-0.5B) and advanced baseline [SliMM-DeepStackM-Qwen2-0.5B](https://huggingface.co/menglc/SliMM-DeepStackM-Qwen2-0.5B). We release a strong 2B model [SliMM-DeepStackE-Qwen2VL-2B](https://huggingface.co/menglc/SliMM-DeepStackE-Qwen2VL-2B) continous fine-tuned from Qwen2VL-2B, which save 4x fewer visual tokens for LLM with. Training scrips are avaliable [here](scripts/slimm)!
 
 
 ## 🛠️ Installation
