@@ -5,7 +5,7 @@ MODEL_NAME=SliMM-DeepStackM-Qwen2-0.5B/stage1
 
 CKPT=checkpoints/$MODEL_NAME
 
-bash scripts/slimm/job_template.sh $ $MODEL_NAME $DATA_PATH  \
+bash scripts/slimm/job_template.sh $MODEL_NAME $DATA_PATH  \
     --model_name_or_path Qwen/Qwen2-0.5B-Instruct \
     --model_max_length 4096 \
     --per_device_train_batch_size 32 --gradient_accumulation_steps 1 --max_num_vistoken 1024 \
