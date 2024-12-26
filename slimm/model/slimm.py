@@ -229,7 +229,7 @@ class SliMMForConditionalGeneration(Qwen2VLForConditionalGeneration):
                     # FIXME
                     l, d = image_embeds_dummy.shape
                     embeds_deepstack = embeds_deepstack.view(l, -1, d).permute(1,0,2).contiguous()
-                    image_mask_deepstack = input_ids == self.config.image_token_id # all-zero matrix
+                    mask_deepstack = input_ids == self.config.image_token_id # all-zero matrix
                     embeds_deepstack = embeds_deepstack[:,:0]
 
                 inputs_embeds = torch.cat([inputs_embeds, image_embeds_dummy[:0][None].expand(inputs_embeds.shape[0], -1, -1)], dim=1)
