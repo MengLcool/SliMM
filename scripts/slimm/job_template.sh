@@ -9,7 +9,7 @@ echo "MID_RUN_NAME: ${RUN_NAME}"
 echo "MODEL ARGS: ${MODEL_ARGS}"
 
 deepspeed --master_port 12345 \
-    llava/train/train_qwen2vl.py \
+    slimm/train/train.py \
     --deepspeed scripts/zero3.json \
     --model_name_or_path $PREV_STAGE_CHECKPOINT \
     --data_path $DATA_PATH \
